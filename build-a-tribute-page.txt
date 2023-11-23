@@ -1,0 +1,123 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="main" class="page">
+    <div>
+    <h1 id="title">Dr. Martin Luther king Jr</h1>
+    <p> The youngest to do it</p>
+  <div id="img-div" class="image">
+    <img id="image" class="image" src="https://pbs.twimg.com/media/FGQqAAfXEAI1tm-?format=jpg&name=900x900"><figcaption id="img-caption">Dr. Martin Luther King jr holding in his hands the Nobel Peace Prize</figcaption>
+    </div>
+    <section id="info">
+      <h3 id="headline"> Here's a time line of Dr. Martin Luther King Jr's life:</h3>
+     <ul>
+        <li><strong>1929</strong> born at 501 Auburn Ave. in Atlanta, Georgia.</li>
+        <li><strong>1944</strong> King begins his freshman year at Morehouse College in Atlanta.</li>
+        <li><strong>1946</strong> The Atlanta Constitution publishes King’s letter to the editor stating that black people “are entitled to the basic rights and opportunities of American citizens.”</li>
+        <li><strong>1948</strong> King receives his bachelor of arts degree in sociology from Morehouse College.</li>
+        <li><strong>1955</strong> King is awarded his doctorate in systematic theology from Boston University.</li>
+        <li><strong>1956</strong> According to King’s later account in Stride Toward Freedom, he receives a threatening phone call late in the evening, prompting a spiritual revelation that fills him with the strength to carry on in spite of persecution.</li>
+        <li><strong>1956</strong> At 9:15 p.m., while King speaks at a mass meeting, his home is bombed. His wife and daughter are not injured. Later, King addresses an angry crowd that gathers outside the house, pleading for nonviolence.</li>
+        <li><strong>1957</strong> Southern black ministers meet in Atlanta to share strategies in the fight against segregation. King is named chairman of the Southern Negro Leaders Conference on Transportation and Nonviolent Integration (later known as the Southern Christian Leadership Conference, SCLC).</li>
+        <li><strong>1958</strong> King and other civil rights leaders meet with President Dwight D. Eisenhower in Washington.</li>
+        <li><strong>1958</strong> During a book signing at Blumstein’s Department Store in Harlem, New York, King is stabbed by Izola Ware Curry. He is rushed to Harlem Hospital, where a team of doctors successfully remove a seven-inch letter opener from his chest.</li>
+        <li><strong>1960</strong>	King is arrested during a sit-in demonstration at Rich’s department store in Atlanta. He is sentenced to four months of hard labor for violating probation conditions he had received earlier that year for driving with an out-of-state driver’s license. He is released on $2000 bond on 27 October.</li>
+        <li><strong>1964</strong> King receives the Nobel Peace Prize at a ceremony in Oslo, Norway. He declares that “every penny” of the $54,000 award will be used in the ongoing civil rights struggle.</li>
+        <li><strong>1965</strong> King publicly opposes the Vietnam War at a mass rally at the Ninth Annual Convention of SCLC in Birmingham.</li>
+        <li><strong>1968</strong> King leads a march of six thousand protesters in support of striking sanitation workers in Memphis. The march descends into violence and looting, and King is rushed from the scene.</li>
+        <li><strong>1968</strong> King is shot and killed while standing on the balcony of the Lorraine Motel in Memphis.</li>
+        <li><strong>1968</strong> King is buried in Atlanta.</li>
+        </ul>
+        </section>
+    <div id="tribute-info"> <h3>If you have time, you should read more about this incredible human being on his <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.">Wikipedia entry.</a></h3>
+
+
+** end of undefined **
+
+** start of undefined **
+
+html{
+  font-size: 10px
+}
+
+body{
+  font-size:1.6rem;
+ font-family: 'Segoe UI', 'Roboto','Helvetica Neue', Arial, sans-serif;
+ line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+@media (max-width: 460px) {
+h1{
+  font-size: 4rem;
+  margin-bottom: 0;
+ }
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+.image{
+  max-width:100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+
+li {
+  margin: 16px 0;
+}
+
+** end of undefined **
+
